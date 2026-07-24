@@ -1,22 +1,24 @@
 # SCADA Project
 
-A web-based SCADA (Supervisory Control and Data Acquisition) application developed to monitor and manage industrial processes through a modern web interface.
+## Overview
+
+SCADA Project is a web-based application developed to monitor and manage industrial systems through a modern user interface. The project follows a client-server architecture using React for the frontend and Node.js/Express for the backend.
 
 ## Features
 
 - User authentication
-- Real-time monitoring interface
-- Dashboard for system management
-- Backend API services
+- Industrial system monitoring
 - Database integration
+- REST API architecture
+- Simulator support
 
-## Technologies Used
+## Technologies
 
 ### Frontend
 - React
 - JavaScript
-- HTML
-- CSS
+- HTML5
+- CSS3
 
 ### Backend
 - Node.js
@@ -28,68 +30,51 @@ A web-based SCADA (Supervisory Control and Data Acquisition) application develop
 ## Project Structure
 
 ```
-scada-project
+scada-project/
 │
-├── frontend
-├── backend
-├── package.json
-└── README.md
+├── frontend/
+├── backend/
+├── simulator/
+├── README.md
+└── package.json
 ```
 
 ## Installation
 
-Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/kplnnesra/scada-project.git
 ```
 
-Install backend dependencies
+Install dependencies:
 
 ```bash
 cd backend
 npm install
-```
 
-Install frontend dependencies
-
-```bash
 cd ../frontend
 npm install
 ```
 
-Run the backend
+Run the backend:
 
 ```bash
 npm start
 ```
 
-Run the frontend
+Run the frontend:
 
 ```bash
 npm start
-```
-
-## Environment Variables
-
-Create a `.env` file inside the backend folder.
-
-Example:
-
-```
-DB_HOST=
-DB_USER=
-DB_PASSWORD=
-DB_NAME=
-JWT_SECRET=
 ```
 
 ## Future Improvements
 
-- Data visualization with charts
-- Alarm notification system
-- User role management
-- Mobile responsive interface
+- Real-time data visualization
+- Alarm management
+- User roles and permissions
+- Dashboard enhancements
 
 ## Author
 
